@@ -1,0 +1,10 @@
+onlyBuiltDependencies:
+  - esbuild
+  - sass-embedded
+  - vue-demi
+
+# 学习期关掉新包冷静期，避免「刚发的版本装不上」
+minimumReleaseAge: 0
+
+# 国内加速（也可写在 .npmrc，但新版优先读这里）
+registry: https://registry.npmmirror.com
